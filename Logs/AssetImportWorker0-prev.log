@@ -1,0 +1,450 @@
+Unity Editor version:    2020.3.21f1 (a38c86f6690f)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 10.15.7 (Build 19H1615)
+Darwin version:          19.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        32768 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/sudikofflabimac/Desktop/Qiyao_Alley
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52046
+Successfully changed project path to: /Users/sudikofflabimac/Desktop/Qiyao_Alley
+/Users/sudikofflabimac/Desktop/Qiyao_Alley
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 92.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.21f1 (a38c86f6690f)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/sudikofflabimac/Desktop/Qiyao_Alley/Assets
+GfxDevice: creating device client; threaded=0
+2022-02-06 19:37:45.888 Unity[45852:7869318] iMac preferred device: AMD Radeon Pro 575 (high power)
+2022-02-06 19:37:45.889 Unity[45852:7869318] Metal devices available: 1
+2022-02-06 19:37:45.889 Unity[45852:7869318] 0: AMD Radeon Pro 575 (high power)
+2022-02-06 19:37:45.889 Unity[45852:7869318] Using device AMD Radeon Pro 575 (high power)
+Initializing Metal device caps: AMD Radeon Pro 575
+Initialize mono
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56852
+Begin MonoManager ReloadAssembly
+Error scanning for extension ivy.xml files: System.UnauthorizedAccessException: Access to the path '/Applications/Unity/PlaybackEngines/WebGLSupport/BuildTools/Emscripten_Mac/node' is denied.
+  at System.IO.__Error.WinIOError (System.Int32 errorCode, System.String maybeFullPath) [0x00129] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileSystemEnumerableIterator`1[TSource].HandleError (System.Int32 hr, System.String path) [0x00006] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileSystemEnumerableIterator`1[TSource].AddSearchableDirsToStack (System.IO.Directory+SearchData localSearchData) [0x00053] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileSystemEnumerableIterator`1[TSource].MoveNext () [0x0008e] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Collections.Generic.List`1[T]..ctor (System.Collections.Generic.IEnumerable`1[T] collection) [0x00077] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Directory.InternalGetFileDirectoryNames (System.String path, System.String userPathOriginal, System.String searchPattern, System.Boolean includeFiles, System.Boolean includeDirs, System.IO.SearchOption searchOption, System.Boolean checkHost) [0x0000f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Directory.InternalGetFiles (System.String path, System.String searchPattern, System.IO.SearchOption searchOption) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Directory.GetFiles (System.String path, System.String searchPattern, System.IO.SearchOption searchOption) [0x00038] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.Modules.ModuleManager.LoadLegacyExtensionsFromIvyFiles () [0x000a5] in /Users/bokken/buildslave/unity/build/Editor/Mono/Modules/ModuleManager.cs:253 
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.043797 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 45.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.512 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3512ms)
+		BeginReloadAssembly (57ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (520ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (191ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (200ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (46ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (105ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.055350 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 60.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.643 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1645ms)
+		BeginReloadAssembly (177ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (1389ms)
+			LoadAssemblies (294ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (421ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (469ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (61ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (280ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.005736 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.006876 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Initializing Unity extensions:
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2804 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 233.4 MB.
+System memory in use after: 233.2 MB.
+
+Unloading 119 unused Assets to reduce memory usage. Loaded Objects now: 3277.
+Total: 3.270506 ms (FindLiveObjects: 0.262562 ms CreateObjectMapping: 0.118426 ms MarkObjects: 2.695055 ms  DeleteObjects: 0.193532 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Materials/L_block1_graff_texture
+  artifactKey: Guid(9ca72cb5960d34d20bcffb73a227e4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/L_block1_graff_texture using Guid(9ca72cb5960d34d20bcffb73a227e4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b248afc70caa6f9faecb8feef9314923') in 0.008092 seconds 
+  Import took 0.013911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.107692 seconds.
+  path: Assets/Materials/L_block1_graff_texture/left1_L_blocks_Albedo.png
+  artifactKey: Guid(647a31a2777ed4f44a383369b0352629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/L_block1_graff_texture/left1_L_blocks_Albedo.png using Guid(647a31a2777ed4f44a383369b0352629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9045f116463cb77da5abf0f0af19e927') in 0.449250 seconds 
+  Import took 0.453508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.879590 seconds.
+  path: Assets/Materials/L_block1_graff_texture/left1_L_blocks_Normal.png
+  artifactKey: Guid(f6baa2561438e4483a024d3bcfac373c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/L_block1_graff_texture/left1_L_blocks_Normal.png using Guid(f6baa2561438e4483a024d3bcfac373c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '760512c7ab614aab9dc33808429ef8eb') in 0.020379 seconds 
+  Import took 0.025606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.470077 seconds.
+  path: Assets/Materials/L_block1_graff_texture/left1_L_blocks_Albedo.png
+  artifactKey: Guid(647a31a2777ed4f44a383369b0352629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/L_block1_graff_texture/left1_L_blocks_Albedo.png using Guid(647a31a2777ed4f44a383369b0352629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '276888b5f59b25abcd944ce4bba2da42') in 0.015233 seconds 
+  Import took 0.019841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 652.875946 seconds.
+  path: Assets/Materials/L_block3_texture 1
+  artifactKey: Guid(98a68607233ff4f70b8108f30623ed64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/L_block3_texture 1 using Guid(98a68607233ff4f70b8108f30623ed64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '812e7b59c721e952d325754dc721ed8a') in 0.004798 seconds 
+  Import took 0.009755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.571230 seconds.
+  path: Assets/Materials/L_block3_graff_texture
+  artifactKey: Guid(98a68607233ff4f70b8108f30623ed64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/L_block3_graff_texture using Guid(98a68607233ff4f70b8108f30623ed64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d960f6e643803b8cf1e21e8bcdecf0') in 0.004766 seconds 
+  Import took 0.010308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.695843 seconds.
+  path: Assets/Materials/L_block3_graff_texture/L_block3_L_blocks_Albedo.png
+  artifactKey: Guid(b15618fae94a945708bbfe4690144905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/L_block3_graff_texture/L_block3_L_blocks_Albedo.png using Guid(b15618fae94a945708bbfe4690144905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33de405e4c386db4c0e7a60a952ad216') in 0.017273 seconds 
+  Import took 0.022698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.309833 seconds.
+  path: Assets/Materials/L_block3_graff_texture/L_block3_L_blocks_Albedo.png
+  artifactKey: Guid(b15618fae94a945708bbfe4690144905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/L_block3_graff_texture/L_block3_L_blocks_Albedo.png using Guid(b15618fae94a945708bbfe4690144905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '270ec0d481ca7a9be4ee64d3af339035') in 0.017924 seconds 
+  Import took 0.022278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5623.545192 seconds.
+  path: Assets/Materials/neon_gallary_texture
+  artifactKey: Guid(03cb80565658f43668690908b5069fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/neon_gallary_texture using Guid(03cb80565658f43668690908b5069fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a20b751895223bfe357ad85305c0a3c3') in 0.003035 seconds 
+  Import took 0.035494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.003675 seconds.
+  path: Assets/Materials/neon_gallary_texture/neon_sign_lambert1_BaseMap.png
+  artifactKey: Guid(71453a3709898430da82ab0e92544e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/neon_gallary_texture/neon_sign_lambert1_BaseMap.png using Guid(71453a3709898430da82ab0e92544e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f77053401463ea6f19b013259e91c769') in 0.023105 seconds 
+  Import took 0.044045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.138228 seconds.
+  path: Assets/Materials/neon_gallary_texture/gallary_neon_sign_lambert1_BaseMap.png
+  artifactKey: Guid(71453a3709898430da82ab0e92544e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/neon_gallary_texture/gallary_neon_sign_lambert1_BaseMap.png using Guid(71453a3709898430da82ab0e92544e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ef47fcaf9f7f55c8990c08ed728440') in 0.016672 seconds 
+  Import took 0.041768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.461440 seconds.
+  path: Assets/Materials/neon_texture
+  artifactKey: Guid(03cb80565658f43668690908b5069fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/neon_texture using Guid(03cb80565658f43668690908b5069fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c03b5c33afa8b2c8da9ffb2deac4823') in 0.001400 seconds 
+  Import took 0.043032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 127.344578 seconds.
+  path: Assets/Materials/neon_texture/neon_sign_lambert1_BaseMap.png
+  artifactKey: Guid(2a17e0f5a30f74bc18837fc88a0eda4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/neon_texture/neon_sign_lambert1_BaseMap.png using Guid(2a17e0f5a30f74bc18837fc88a0eda4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67240f943c72c795a2131596d8b77d8a') in 0.017269 seconds 
+  Import took 0.047235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.494566 seconds.
+  path: Assets/Materials/neon_texture/theatre_neon_sign_lambert1_BaseMap.png
+  artifactKey: Guid(2a17e0f5a30f74bc18837fc88a0eda4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/neon_texture/theatre_neon_sign_lambert1_BaseMap.png using Guid(2a17e0f5a30f74bc18837fc88a0eda4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a01b25c93a5fe5c1417a887b4e13720a') in 0.015678 seconds 
+  Import took 0.039729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 189.232716 seconds.
+  path: Assets/models/neon_sign.fbx
+  artifactKey: Guid(91c96d2d7e33445049c25fd179f9c7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/neon_sign.fbx using Guid(91c96d2d7e33445049c25fd179f9c7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '366138251c2b6d51fa8377128e7cbbdf') in 1.018427 seconds 
+  Import took 1.022902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.175589 seconds.
+  path: Assets/models/neon_sign.fbx
+  artifactKey: Guid(91c96d2d7e33445049c25fd179f9c7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/neon_sign.fbx using Guid(91c96d2d7e33445049c25fd179f9c7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895398157e2e82bd0258310d1ed8d509') in 0.040159 seconds 
+  Import took 0.059881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 312.613268 seconds.
+  path: Assets/TutorialInfo
+  artifactKey: Guid(49110bb8dcada46328ad741970bce702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo using Guid(49110bb8dcada46328ad741970bce702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5a30219286eb2a872f2f84d66d9616') in 0.005185 seconds 
+  Import took 0.011118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.001468 seconds.
+  path: Assets/models/neon_sign.fbx
+  artifactKey: Guid(91c96d2d7e33445049c25fd179f9c7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/neon_sign.fbx using Guid(91c96d2d7e33445049c25fd179f9c7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd15db2ae78f78231c0507a90ba919a39') in 0.038629 seconds 
+  Import took 0.043583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 616.032630 seconds.
+  path: Assets/export
+  artifactKey: Guid(759014eb695ff42e092bc681c7a9d087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/export using Guid(759014eb695ff42e092bc681c7a9d087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd2bbfee31bfddd88292bc85807f204b') in 0.002719 seconds 
+  Import took 0.007528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.470310 seconds.
+  path: Assets/export/alley_export 1.prefab
+  artifactKey: Guid(3947371647253439086e72d922ccf8f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/export/alley_export 1.prefab using Guid(3947371647253439086e72d922ccf8f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '802f388de83768949a72daeded73b8f4') in 3.042232 seconds 
+  Import took 3.083942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.273679 seconds.
+  path: Assets/export/alley_export_feb6.prefab
+  artifactKey: Guid(3947371647253439086e72d922ccf8f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/export/alley_export_feb6.prefab using Guid(3947371647253439086e72d922ccf8f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e723db1f87a0b6d541908d23c399f2e8') in 0.376262 seconds 
+  Import took 0.434947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.423410 seconds.
+  path: Assets/Materials/neon_texture/neon_sign_lambert1_BaseMap.png
+  artifactKey: Guid(94f5a803795b140bbabdc6dd07b4c6f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/neon_texture/neon_sign_lambert1_BaseMap.png using Guid(94f5a803795b140bbabdc6dd07b4c6f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7368507848ce1f98a34ccdfae04b465') in 0.013205 seconds 
+  Import took 0.017637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001879 seconds.
+  path: Assets/Materials/neon_gallary_mat.mat
+  artifactKey: Guid(20613e109b9fd499f9ca1e595a1cf3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/neon_gallary_mat.mat using Guid(20613e109b9fd499f9ca1e595a1cf3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '597dad3e79911046b62757e825517f25') in 0.310010 seconds 
+  Import took 0.335767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006292 seconds.
+  path: Assets/Materials/L_block1_graff_texture/left1_L_blocks_Height.png
+  artifactKey: Guid(053ce9f10d42b422fbaa0df9cd423084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/L_block1_graff_texture/left1_L_blocks_Height.png using Guid(053ce9f10d42b422fbaa0df9cd423084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30fef9c795a2fe90609834c4b7843a93') in 0.013021 seconds 
+  Import took 0.028430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002085 seconds.
+  path: Assets/Materials/L_block3_graff_texture/L_block3_L_blocks_Albedo.png
+  artifactKey: Guid(b15618fae94a945708bbfe4690144905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/L_block3_graff_texture/L_block3_L_blocks_Albedo.png using Guid(b15618fae94a945708bbfe4690144905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76687123b25ec2f7740fdd4d1271eefc') in 0.012822 seconds 
+  Import took 0.024302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034928 seconds.
+  path: Assets/Materials/L_block1_graff_texture/left1_L_blocks_Normal.png
+  artifactKey: Guid(f6baa2561438e4483a024d3bcfac373c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/L_block1_graff_texture/left1_L_blocks_Normal.png using Guid(f6baa2561438e4483a024d3bcfac373c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f60a167a3571f38b381f78af4ffbcc') in 0.070969 seconds 
+  Import took 0.075670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004065 seconds.
+  path: Assets/Materials/L_block3_texture/L_block3_L_blocks_Normal.png
+  artifactKey: Guid(510fab5f09e6842c8a18913ccd25488d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/L_block3_texture/L_block3_L_blocks_Normal.png using Guid(510fab5f09e6842c8a18913ccd25488d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5661a1d4fc8f63d30d462bbe1e1ad460') in 0.015105 seconds 
+  Import took 0.043449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.314000 seconds.
+  path: Assets/Materials/L_block1_texture/left1_L_blocks_Normal.png
+  artifactKey: Guid(4ed7d8ae4c20546c5ae0073b3f6ea74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/L_block1_texture/left1_L_blocks_Normal.png using Guid(4ed7d8ae4c20546c5ae0073b3f6ea74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdf619ba135c552762bb1f4776a7b20b') in 0.014422 seconds 
+  Import took 0.058556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002032 seconds.
+  path: Assets/Materials/L_block3_graff_texture/L_block3_L_blocks_Normal.png
+  artifactKey: Guid(ff5e895b2d80b475aa3b5da2674b95b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/L_block3_graff_texture/L_block3_L_blocks_Normal.png using Guid(ff5e895b2d80b475aa3b5da2674b95b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4008d22c4bc62f65c13fc0faecf0f284') in 0.015353 seconds 
+  Import took 0.054912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015464 seconds.
+  path: Assets/Materials/neon_theatre_mat.mat
+  artifactKey: Guid(9f34d3effe67840cface8be117ca1dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/neon_theatre_mat.mat using Guid(9f34d3effe67840cface8be117ca1dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20bed0b16ff4e56baa12707c9202e43c') in 0.013435 seconds 
+  Import took 0.022752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015335 seconds.
+  path: Assets/Materials/L_block3_graff_texture/L_block3_L_blocks_Metallic.png
+  artifactKey: Guid(0830257d33dea43d98229808d60145c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/L_block3_graff_texture/L_block3_L_blocks_Metallic.png using Guid(0830257d33dea43d98229808d60145c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82bd2467d07ade28617a26ff406f71cc') in 0.014424 seconds 
+  Import took 0.018993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014318 seconds.
+  path: Assets/Materials/L_block3_graff_mat.mat
+  artifactKey: Guid(e0335c03f07f44716b0245fcb7a14396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/L_block3_graff_mat.mat using Guid(e0335c03f07f44716b0245fcb7a14396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f697d0186614614530fbec21a7d57291') in 0.030912 seconds 
+  Import took 0.047017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023624 seconds.
+  path: Assets/Materials/L_block1_graff_texture/left1_L_blocks_Metallic.png
+  artifactKey: Guid(8f3d537ea2d23425cb7f12ccec9bf9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/L_block1_graff_texture/left1_L_blocks_Metallic.png using Guid(8f3d537ea2d23425cb7f12ccec9bf9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e078973e39475dd8976293c22cf5ce5b') in 0.014481 seconds 
+  Import took 0.033197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028017 seconds.
+  path: Assets/Materials/neon_underground_mat.mat
+  artifactKey: Guid(2e52eefaaee164b56b15df88371c3d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/neon_underground_mat.mat using Guid(2e52eefaaee164b56b15df88371c3d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd1a94ef019d8d9894d6840dac0c543b') in 0.012015 seconds 
+  Import took 0.016006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.076057 seconds.
+  path: Assets/Materials/L_block3_graff_texture/L_block3_L_blocks_Height.png
+  artifactKey: Guid(eb088e6f717e2435b9871f371d1a7b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/L_block3_graff_texture/L_block3_L_blocks_Height.png using Guid(eb088e6f717e2435b9871f371d1a7b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03195384652d26af120d6be7420e02ca') in 0.011092 seconds 
+  Import took 0.025558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011332 seconds.
+  path: Assets/Materials/L_block1_graff_mat.mat
+  artifactKey: Guid(ad300c0b5292c4dbd80b6f9cabb20469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/L_block1_graff_mat.mat using Guid(ad300c0b5292c4dbd80b6f9cabb20469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7827128e37e9bf2b93f7c95d0596d880') in 0.029191 seconds 
+  Import took 0.034570 seconds .
+
